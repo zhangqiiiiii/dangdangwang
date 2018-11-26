@@ -23,7 +23,8 @@ public class AppTests {
         List<Product> rows = (List<Product>) map.get("rows");
         for (Product p : rows
         ) {
-            System.out.println(p);
+            System.out.println(p + "");
+
         }
     }
 
